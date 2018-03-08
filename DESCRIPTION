@@ -1,0 +1,23 @@
+Package: sRDA
+Title: Sparse Redundancy Analysis
+Version: 1.0.0
+Date: 2017-12-12
+Authors@R: c(person("Attila", "Csala", role = c("aut", "cre"), email = "a@csala.me"),
+			person("Koos", "Zwinderman", role = "ctb", email = "a.h.zwinderman@amc.uva.nl"))
+Author: Attila Csala [aut, cre],
+		Koos Zwinderman [ctb]
+Maintainer: Attila Csala <a@csala.me>
+Description: Sparse redundancy analysis
+	for high dimensional (biomedical) data. Directional multivariate analysis 
+	to express the maximum variance in the predicted data set by a linear 
+	combination of variables of the predictive data set. Implemented in a 
+	partial least squares framework, for more details see Csala et al. (2017) <doi:10.1093/bioinformatics/btx374>.
+Depends: R (>= 2.7), Matrix, doParallel, elasticnet, foreach, mvtnorm
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2017-12-14 10:24:28 UTC; acsala
+Repository: CRAN
+Date/Publication: 2017-12-14 13:36:54 UTC
