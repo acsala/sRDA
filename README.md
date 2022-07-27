@@ -85,6 +85,39 @@ RDA.res$ALPHA[[2]][1:20]
 t(RDA.res$XI[[1]]) %*% RDA.res$XI[[2]]
 ```
 
+Session Info
+-------
+``` r
+sessionInfo()
+R version 3.5.0 (2018-04-23)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Debian GNU/Linux buster/sid
+
+Matrix products: default
+BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.8.0
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.8.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] parallel  stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+[1] sRDA_1.0.0        mvtnorm_1.1-3     elasticnet_1.3    lars_1.3         
+[5] doParallel_1.0.17 iterators_1.0.14  foreach_1.5.2     Matrix_1.2-14    
+
+loaded via a namespace (and not attached):
+[1] compiler_3.5.0   tools_3.5.0      codetools_0.2-15 grid_3.5.0      
+[5] lattice_0.20-35
+```
+
 License
 -------
 
