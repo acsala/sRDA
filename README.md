@@ -1,9 +1,9 @@
-sRDA: the R package
+sRDA: sparse Redundancy Analysis
 ========================
 
 [![CRAN Version](https://www.r-pkg.org/badges/version/sRDA)](https://CRAN.R-project.org/package=sRDA) [![Downloads](https://cranlogs.r-pkg.org/badges/sRDA)](https://CRAN.R-project.org/package=sRDA) [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/sRDA?color=orange)](https://CRAN.R-project.org/package=sRDA)
 
-Multivariate statistical technique for high dimensional (biomedical) data analysis. sRDA is a a directional multivariate method to express the maximum variance in the predicted dataset by a linear combination of variables of the predictive dataset. Implemented in a partial least squares framework, for more details see [sRDA on CRAN](https://CRAN.R-project.org/package=sRDA) and [Csala et al. (2017)](https://doi.org/10.1093/bioinformatics/btx374).
+Multivariate statistical technique for high dimensional (biomedical) data analysis. sRDA is a a directional multivariate method to express the maximum variance in the predicted dataset by a linear combination of variables of the predictive dataset. Implemented in a partial least squares framework, for more details see [sRDA on CRAN](https://CRAN.R-project.org/package=sRDA) and [the accompanying paper](https://doi.org/10.1093/bioinformatics/btx374).
 
 Installation
 ------------
